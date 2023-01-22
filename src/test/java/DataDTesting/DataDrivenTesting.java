@@ -30,7 +30,7 @@ public class DataDrivenTesting {
 			 
 			 driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys(myproduct);
 			 driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
-		      System.out.println("Closing the browser1");
+		      System.out.println("Closing the browser2");
 			 driver.close();
 	}	
 }
